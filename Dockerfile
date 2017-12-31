@@ -9,4 +9,4 @@ COPY ./at /at
 
 WORKDIR /at
 
-RUN make clean && make all & make install
+RUN make clean & make install
